@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+background-size: cover;
+  background-image: url(../public/th.jpeg);
+
+}
+table{
+
+
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+tr th{
+
+  background-color: rgb(46, 101, 202);
+  color: black;
+  /* border-bottom: 2px solid black;
+  border-right: 2px solid black; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+tr td{
+  background-color: rgb(133, 165, 226);
+  color: black;
+  /* border-right: 2px solid black;
+  border-bottom: 2px solid black; */
+}
+.main{
+
+    background-color: cadetblue;
+    color: antiquewhite;
+    font-size: xx-large;
+
+}
+
+table{
+
+    margin-top: 10px;
+    font-size: x-large;
+
+}
+.inputs{
+  /* margin: auto; */
+  border: 5px solid black;
+  /* width: 60%; */
+margin: 20px;
+padding: 20px;
+ display: flex;   
+ justify-content: space-between;
+
+
+}
+.inputs input{
+
+   border: 3px solid black;
+   padding: 5px;
+
+}
+tr td .delete{
+
+  padding: 5px 15px;
+
+  background-color: rgb(135, 12, 12);
+color: aliceblue;
+
+}
+tr td .update{
+
+  padding: 5px 15px;
+
+  background-color: rgb(4, 162, 17);
+color: aliceblue;
+
+}
+
+.h1{
+
+   font-size: larger;
+   /* background-color: red;/ */
+   color: black;
+
+}
+.submit
+{
+
+   background-color: blue;
+   color: aliceblue;
+   padding: 10px 80px;
+   /* border: 10px solid white; */
+   border-radius: 20px;
+
 }
